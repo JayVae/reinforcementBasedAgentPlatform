@@ -52,7 +52,7 @@ The application sample of this library can be found in the following repositorie
 An reinforcement agent, say, Q-Learn agent, can be created by the following java code:
 
 ```java
-import com.github.chen0040.rl.learning.qlearn.QAgent;
+import QAgent;
 
 int stateCount = 100;
 int actionCount = 10;
@@ -105,7 +105,7 @@ agent.update(actionTaken, newStateId, reward);
 ### Sample code for R-Learn
 
 ```java
-import com.github.chen0040.rl.learning.rlearn.RAgent;
+import RAgent;
 
 int stateCount = 100;
 int actionCount = 10;
@@ -178,7 +178,7 @@ for(int i=moves.size()-1; i >= 0; --i){
 ### Sample code for Q-Learn
 
 ```java
-import com.github.chen0040.rl.learning.qlearn.QAgent;
+import QAgent;
 
 int stateCount = 100;
 int actionCount = 10;
@@ -251,7 +251,7 @@ for(int i=moves.size()-1; i >= 0; --i){
 ### Sample code for SARSA
 
 ```java
-import com.github.chen0040.rl.learning.sarsa.SarsaAgent;
+import SarsaAgent;
 
 int stateCount = 100;
 int actionCount = 10;
@@ -327,8 +327,8 @@ for(int i=moves.size()-1; i >= 0; --i){
 ### Sample code for Actor Critic Model
 
 ```java
-import com.github.chen0040.rl.learning.actorcritic.ActorCriticAgent;
-import com.github.chen0040.rl.utils.Vec;
+import ActorCriticAgent;
+import Vec;
 
 int stateCount = 100;
 int actionCount = 10;
