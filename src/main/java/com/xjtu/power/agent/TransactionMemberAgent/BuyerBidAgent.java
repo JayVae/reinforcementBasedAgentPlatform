@@ -34,6 +34,19 @@ public class BuyerBidAgent extends AbstractBidAgent{
         super(stateCount, actionCount);
     }
 
+    public BuyerBidAgent(int stateCount, int actionCount, Buyer buyerInfo, String name, double quantity, double price, double maxQuantity, double finalQuantity, double finalPrice, int stateCnt, int actionCnt) {
+        super(stateCount, actionCount);
+        this.buyerInfo = buyerInfo;
+        this.name = name;
+        this.quantity = quantity;
+        this.price = price;
+        this.maxQuantity = maxQuantity;
+        this.finalQuantity = finalQuantity;
+        this.finalPrice = finalPrice;
+        this.stateCnt = stateCnt;
+        this.actionCnt = actionCnt;
+    }
+
     public BuyerBidAgent(int stateCount, int actionCount, Buyer buyerInfo) {
         super(stateCount, actionCount);
         this.buyerInfo = buyerInfo;

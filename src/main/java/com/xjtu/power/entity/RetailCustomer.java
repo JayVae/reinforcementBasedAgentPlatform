@@ -6,4 +6,6 @@ package com.xjtu.power.entity;
  * @Modified By:
  */
 public class RetailCustomer {
+
+
 }

@@ -1,22 +1,13 @@
-package com.dhcc.powerflow;
+package com.xjtu.power.tool.dhcc.powerflow;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
+import com.xjtu.power.tool.dhcc.Global.Variable;
+import com.xjtu.power.tool.dhcc.model.*;
+import com.xjtu.power.tool.dhcc.util.MatrixUtil;
+
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import com.dhcc.Global.Variable;
-import com.dhcc.model.Branch;
-import com.dhcc.model.Gene;
-import com.dhcc.model.Info;
-import com.dhcc.model.Load;
-import com.dhcc.model.MPC;
-import com.dhcc.model.Tran;
-import com.dhcc.util.MatrixUtil;
 
 public class ProcData {
 	

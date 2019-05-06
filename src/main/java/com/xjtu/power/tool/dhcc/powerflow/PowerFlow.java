@@ -1,8 +1,9 @@
-package com.dhcc.powerflow;
+package com.xjtu.power.tool.dhcc.powerflow;
 
-import com.dhcc.Global.Variable;
-import com.dhcc.model.Info;
-import com.dhcc.util.MatrixUtil;
+
+import com.xjtu.power.tool.dhcc.Global.Variable;
+import com.xjtu.power.tool.dhcc.model.Info;
+import com.xjtu.power.tool.dhcc.util.MatrixUtil;
 
 public class PowerFlow {
 	private int k = 0;
@@ -194,8 +195,9 @@ public class PowerFlow {
 	
 	public static void main(String[] args) {
 		ProcData pd = new ProcData();
-		pd.ReadData("/Users/xyk0058/Documents/PowerFlow/src/com/dhcc/casedata/case14.txt");
+		pd.ReadData("E:\\gitlab\\java-reinforcement-learning\\src\\main\\java\\com\\xjtu\\power\\tool\\dhcc\\casedata\\case14.txt");
 		//pd.ReadData("D:/Java/PowerFlow/src/com/dhcc/casedata/case14.txt");
+		long startTime=System.nanoTime();   //获取开始时间
 		pd.InitData();
 		pd.TestInfo();
 		pd.AdmtMatrix();
@@ -206,6 +208,10 @@ public class PowerFlow {
 		//pd.PrintInfo();
 		PowerFlow pf = new PowerFlow();
 		pf.Run();
+		System.out.println("输出");
 		pf.PrintInfo();
+		System.out.println("end");
+		long endTime=System.nanoTime(); //获取结束时间
+		System.out.println("程序运行时间： "+(endTime-startTime)+"ns");
 	}
 }

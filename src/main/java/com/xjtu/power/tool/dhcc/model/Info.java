@@ -1,4 +1,4 @@
-package com.dhcc.model;
+package com.xjtu.power.tool.dhcc.model;
 
 public class Info {
 	//系统节点的总数

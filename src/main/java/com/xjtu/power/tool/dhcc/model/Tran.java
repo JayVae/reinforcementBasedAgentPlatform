@@ -1,4 +1,4 @@
-package com.dhcc.model;
+package com.xjtu.power.tool.dhcc.model;
 
 public class Tran {
 	private int from;

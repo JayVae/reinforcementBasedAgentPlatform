@@ -6,4 +6,5 @@ package com.xjtu.power.agent.engine;
  * @Modified By:
  */
 public class SimulationScheduler {
+
 }

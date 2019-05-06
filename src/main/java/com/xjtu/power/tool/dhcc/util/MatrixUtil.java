@@ -1,8 +1,8 @@
-package com.dhcc.util;
+package com.xjtu.power.tool.dhcc.util;
 
 public class MatrixUtil {
 	
-	//ÇóÄæ¾ØÕó
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	public static double[][] Inverse(double[][] B) {
 		int n = B.length;
 		double[][] invB = new double[n][n];

@@ -1,10 +1,7 @@
-package com.dhcc.Global;
+package com.xjtu.power.tool.dhcc.Global;
 
-import com.dhcc.model.Branch;
-import com.dhcc.model.Gene;
-import com.dhcc.model.Info;
-import com.dhcc.model.Load;
-import com.dhcc.model.Tran;
+
+import com.xjtu.power.tool.dhcc.model.*;
 
 public class Variable {
 	

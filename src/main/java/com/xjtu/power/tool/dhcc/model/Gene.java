@@ -1,10 +1,10 @@
-package com.dhcc.model;
+package com.xjtu.power.tool.dhcc.model;
 
 public class Gene {
 	private int i;
 	private int j;//type
-	private double p;//ÓÐ¹¦¹¦ÂÊ
-	private double q;//ÎÞ¹¦¹¦ÂÊ
+	private double p;//ï¿½Ð¹ï¿½ï¿½ï¿½ï¿½ï¿½
+	private double q;//ï¿½Þ¹ï¿½ï¿½ï¿½ï¿½ï¿½
 	private double v;
 	public Gene() {}
 	
